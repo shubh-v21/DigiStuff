@@ -1,0 +1,70 @@
+# -------------------
+# Node / Express
+# -------------------
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+coverage/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Process manager files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+build/
+
+# DB dump files
+*.sqlite
+*.db
+*.dump
+
+# -------------------
+# React (Vite / CRA)
+# -------------------
+client/node_modules/
+client/dist/
+client/build/
+client/.env
+client/.env.local
+client/.env.*.local
+client/.vite/
+client/.next/
+
+# Vite cache
+client/.cache/
+client/.parcel-cache/
+
+# Test coverage
+client/coverage/
+
+# -------------------
+# NeonDB specific
+# -------------------
+*.sql
+dump.sql
+migrations/*.sql
+neon.config.ts
+neon.config.js
+
+# -------------------
+# OS / Editor / Tooling
+# -------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+
